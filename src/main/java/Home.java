@@ -31,7 +31,7 @@ public class Home {
         for(z = 1; z < 10 ; z++){         //   A * B 에서 A 의 반복문 완성
          for( x = 1; x < 10; x++)     //   A * B 에서 B 의 반복문 완성
             { System.out.println(z + " * " + x + " = " + z * x); }        } */
-
+        // 구구단 9단부터 1단까지 역순으로 이중반복문 사용
         int k, l;
         for(k = 9; k > 0; k--){
             for( l = 1; l < 10; l++){
