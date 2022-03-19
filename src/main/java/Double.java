@@ -7,17 +7,28 @@ public class Double {
         System.out.print("이름을 입력해주세요 : ");    // 이름을 입력해주세요 출력
         String i = in.nextLine();//  이름 저장받는 변수인  " i " 생성
         String k = "김성현";   // 이 이름과 같은 이름을 입력해야지 구구단이 작동
-        System.out.println("나이를 입력해주세요");  // 나이를 입력해주세요 출력
-        int j = in.nextInt();  // ※ carmel 표기법으로 중간에 대문자 넣어주기
-        // 이름과 나이 저장 완료
-        if(k.equals(i)){
-            if(j>=19){
-                System.out.println("성인입니다");
+        // 이름 저장 완료
+        if(k.equals(i)){    // (기준).eqauls(넣는값) : 기준과 넣는 값이 같을 때 true
+            System.out.print("나이를 입력해주세요 : ");  // 나이를 입력해주세요 출력
+            int j = in.nextInt();  // ※ carmel 표기법으로 중간에 대문자 넣어주기
+            if(j>=19){ System.out.println("성인입니다. 구구단 프로그램 사용허가완료\n"); // 19세 이상이면 출력
+                System.out.print("구구단 몇단 : ");
+                int l = in.nextInt(); // 구구단 몇 단 뒤에 입력한 숫자를 기준으로 구구단 생성
+                int h = 0;  //
+                System.out.println( l + "단" );  // (입력한 값)단
+                System.out.println( l + " x " + ++h + " = " + (l*h));
+                System.out.println( l + " x " + ++h + " = " + (l*h));
+                System.out.println( l + " x " + ++h + " = " + (l*h));
+                System.out.println( l + " x " + ++h + " = " + (l*h));
+                System.out.println( l + " x " + ++h + " = " + (l*h));
+                System.out.println( l + " x " + ++h + " = " + (l*h));
+                System.out.println( l + " x " + ++h + " = " + (l*h));
+                System.out.println( l + " x " + ++h + " = " + (l*h));
+                System.out.println( l + " x " + ++h + " = " + (l*h) + "\n");
+                System.out.println("구구단 프로그램 종료");
             }
+            else{ System.out.println("미성년자 로그인 실패"); } // 19세 미만일 때 출력
+                        }
+            else{ System.out.println("이름 불일치 로그인 실패"); }  // 기준 값이랑 입력한 값이 다를때 출력
 
-        } else{
-            System.out.println("로그인 실패");
-        }
-
-    }
-}
+    }}
