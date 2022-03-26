@@ -1,6 +1,6 @@
 public class MakeStar {
     public static void main(String[] args) {
-        int inc = 3, dec = 3;
+        /* int inc = 3, dec = 3;
         for ( int i = 1; i <= 3; i++ ){
             for ( int j = 1; j <= inc; j++){
                 if (j < dec ){
@@ -11,8 +11,20 @@ public class MakeStar {
             }
             dec--;
             inc++;
-            System.out.println();
+            System.out.println(); */
+        int dec = 5;
+        for(int i = 1; i <= 3; i++ ){
+            for(int j = 1; j <= dec; j++){
+                if(i > j ){
+                    System.out.print(" ");
+                }else{
+                    System.out.print("*");}
+                }
+            } System.out.println();
+        dec--;
+
         }
     }
 
-}
+
+
