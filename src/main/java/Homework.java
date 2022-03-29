@@ -16,5 +16,6 @@ public class Homework {
 
         a = b % c;
         System.out.printf(" %d %% %d = %d\n", b, c, a); // 나머지 값을 대입
+
     }
 }
