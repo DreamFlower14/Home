@@ -2,12 +2,12 @@ import java.util.Scanner;
 public class IF {
     public static void main(String[] args) {
 
-        Scanner s = new Scanner(System.in);
+
+        Scanner ashdkashdkasd = new Scanner(System.in);
         System.out.print("점수를 입력해줘요 : ");
-        int a = s.nextInt();
+        int a = ashdkashdkasd.nextInt();
 
-
-        if (a >= 90){
+        if (a >= 90){  // 맞으면
             System.out.println("A");
         }else if ( a >= 80 ){
             System.out.println("B");
