@@ -17,6 +17,10 @@ public class IF {
             System.out.println("D");
         }else{
             System.out.println("f");
+
+            for(int i = 1; i <= 3; i++){
+                System.out.println(i + "번째 출력");
+            }
         }
     }
 }
