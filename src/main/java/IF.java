@@ -18,8 +18,9 @@ public class IF {
         }else{
             System.out.println("f");
 
-            for(int i = 1; i <= 3; i++){
+            for(int i = 1; i <= 6; i++){
                 System.out.println(i + "번째 출력");
+                System.out.println(i+1 + "번째 출력");
             }
         }
     }
