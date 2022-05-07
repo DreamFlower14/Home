@@ -4,7 +4,7 @@ public class C1070 {
     public static void main(String[] args) {
         Scanner s = new Scanner(System.in);
         int a = s.nextInt();
-        /*
+
         if (a == 12) {
             System.out.println("winter");
         } else if (a == 1) {
@@ -30,7 +30,7 @@ public class C1070 {
         } else if (a == 5) {
             System.out.println("spring");
         }
-         */
+
         switch (a) {
             case 12:
             case 1:
